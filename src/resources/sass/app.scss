@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Header
+.header {
+    background-color: #343a40;
+    color: #FFFFFF;
+    height: 60px;
+    font-size: 24px;
+    font-weight: 600;
+    .logout {
+        display: flex;
+        align-items: center;
+    }
+}
+
+// Body
+body {
+    padding-top: 60px;
+    margin: 1rem;
+    color: #636b6f;
+    font-family: -apple-system, BlinkMacSystemFont, YuGothic, Verdana, Meiryo, sans-serif;
+    height: 100%;
+}
+
+/* ログイン画面CSS */
+.login {
+    text-align: center;
+    .form-signin {
+        width: 500px;
+        background-color: white;
+        box-shadow: 2px 2px 4px #8080803b;
+        padding: 45px;
+        margin: auto;
+    }
+}
